@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: aqua;
+  background-image: url("https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg?w=996&t=st=1705245967~exp=1705246567~hmac=00c8e7a913a2d88470ef75f8b1248d48fc3b4a36729cd65f399948811189b66e");
+}
+
+.button {
+  padding: 20px;
+  width: 80px;
+  margin: 0 3px;
+  border: 2px solid black;
+  color: blue;
+  font-size: 30px;
+  border-radius: 80px;
+  cursor: pointer;
+  background-color: white;
+}
+.row {
+  margin: 10px 10px;
+  justify-content: space-around;
+}
+
+.row input {
+  font-size: 50px;
+  color: skyblue;
+  background-color: black;
+  width: 350px;
+  margin: 1px;
+  padding: 10px 0px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
